@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in PHP related to stack overflow errors in recursive functions. The bug occurs when the recursive function `foo()` is called with large integer inputs.  The solution involves implementing a base case that properly handles large inputs and prevents excessive recursion.
